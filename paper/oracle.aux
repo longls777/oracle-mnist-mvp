@@ -1,0 +1,348 @@
+\relax 
+\citation{flad2008divination}
+\citation{keightley1997graphs}
+\citation{li2020hwobc}
+\citation{huang2019obc306}
+\citation{krizhevsky2012imagenet}
+\citation{simonyan2014very}
+\citation{szegedy2015going}
+\citation{he2016deep}
+\citation{guo2015building}
+\citation{huang2019obc306}
+\citation{zhang2019oracle}
+\citation{wang2018deep}
+\citation{Ganin2015Unsupervised}
+\citation{Long2015Learning}
+\citation{Long2016Unsupervised}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The model trained on handprinted data cannot perform well on real scanned data due to distribution discrepancy (left). Benefiting from disentanglement, transformation and alignment, handprinted and scanned data are aligned in structure-shared space and the network is optimized by transformed characters, which improve performance on scanned data (right).}}{1}{}\protected@file@percent }
+\newlabel{simple_arch}{{1}{1}}
+\citation{Ganin2015Unsupervised}
+\citation{Long2015Learning}
+\citation{goodfellow2014generative}
+\citation{bousmalis2016domain}
+\citation{anyang}
+\citation{lecun1998gradient}
+\citation{netzer2011reading}
+\citation{denker1989neural}
+\citation{zhou1995method}
+\citation{li2000coding}
+\citation{li2011recognition}
+\citation{shaotong2016identification}
+\citation{liu2017oracle}
+\citation{guo2015building}
+\citation{huang2019obc306}
+\citation{lu2020recognition}
+\citation{sabour2017dynamic}
+\citation{zhang2019oracle}
+\citation{huang2017densely}
+\citation{zhang2021oracle}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Related work}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-A}Oracle character recognition}{2}{}\protected@file@percent }
+\citation{wang2018deep}
+\citation{Long2015Learning}
+\citation{sun2016deep}
+\citation{zellinger2017central}
+\citation{peng2019moment}
+\citation{Long2015Learning}
+\citation{long2017deep}
+\citation{Yan2017Mind}
+\citation{chen2019graph}
+\citation{Tzeng2017Adversarial}
+\citation{Ganin2015Unsupervised}
+\citation{pei2018multi}
+\citation{chadha2019improved}
+\citation{Ganin2015Unsupervised}
+\citation{long2018conditional}
+\citation{goodfellow2014generative}
+\citation{hoffman2018cycada}
+\citation{hu2018duplex}
+\citation{sankaranarayanan2018generate}
+\citation{hoffman2018cycada}
+\citation{zhu2017unpaired}
+\citation{hu2018duplex}
+\citation{bousmalis2016domain}
+\citation{zhang2018collaborative}
+\citation{bousmalis2016domain}
+\citation{wu2019editing}
+\citation{yang2020swaptext}
+\citation{shimoda2021rendering}
+\citation{wu2019editing}
+\citation{yang2020swaptext}
+\citation{shimoda2021rendering}
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-B}Unsupervised domain adaptation}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {II-C}Text image editing}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Structure-texture separation network}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-A}Overview}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-B}Disentanglement and transformation}{4}{}\protected@file@percent }
+\newlabel{encoder and generator}{{III-B}{4}}
+\newlabel{decoder_reconstruct}{{5}{4}}
+\newlabel{decoder_transform}{{7}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-C}Objective functions}{4}{}\protected@file@percent }
+\newlabel{training loss}{{III-C}{4}}
+\newlabel{total}{{8}{4}}
+\newlabel{src_cls}{{9}{4}}
+\citation{mao2017least}
+\citation{mao2017least}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Illustration of STSN. (a) $E_g$, $E_n^s$ and $E_n^t$ encode images into structure and texture feature space. Based on the disentangled features, $G$ generates the reconstructed and transformed images. (b) $D_I^s$ and $D_I^t$ are utilized to make the transformed images look real from image level. (c) VGGNet ensures the generated images contain proper structures and textures at feature level. (d) $D_F$ is pitted against $E_g$ to make structure-related features domain-invariant. (e) $C$ stacked on $E_g$ is trained on the source and transformed target-like images which further improves the generalization and discrimination of network. }}{5}{}\protected@file@percent }
+\newlabel{architecture}{{2}{5}}
+\newlabel{st_cls}{{10}{5}}
+\newlabel{advf}{{11}{5}}
+\newlabel{advi-t}{{12}{5}}
+\newlabel{advi-s}{{13}{5}}
+\citation{johnson2016perceptual}
+\citation{gatys2016neural}
+\citation{simonyan2014very}
+\citation{huang2017arbitrary}
+\citation{bousmalis2016domain}
+\citation{shi2018genre}
+\citation{kim2017adversarial}
+\citation{cheng2020improving}
+\citation{john2019disentangled}
+\citation{shen2017style}
+\newlabel{per}{{14}{6}}
+\newlabel{rec}{{16}{6}}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces  Optimization procedure of STSN.}}{6}{}\protected@file@percent }
+\newlabel{al1}{{1}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {III-D}Discussion}{6}{}\protected@file@percent }
+\citation{hoffman2018cycada}
+\citation{hu2018duplex}
+\citation{zhang2021robust}
+\citation{kang2020unsupervised}
+\citation{luo2021separating}
+\citation{luo2021separating}
+\citation{lecun1998gradient}
+\citation{netzer2011reading}
+\citation{denker1989neural}
+\citation{anyang}
+\citation{lecun1998gradient}
+\citation{netzer2011reading}
+\citation{denker1989neural}
+\citation{hoffman2018cycada}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The handprinted and scanned examples in Oracle-241 dataset. The left eight columns show handprinted samples belonging to 16 classes and the right eight columns show the corresponding scanned samples of the same 16 classes.}}{7}{}\protected@file@percent }
+\newlabel{oracle_example}{{3}{7}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Experiments}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-A}Datasets}{7}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces Statistic of our Oracle-241 dataset.}}{7}{}\protected@file@percent }
+\newlabel{tab4}{{I}{7}}
+\citation{he2016deep}
+\citation{russakovsky2015imagenet}
+\citation{radford2015unsupervised}
+\citation{dumoulin2016guide}
+\citation{ulyanov2016instance}
+\citation{Ganin2015Unsupervised}
+\citation{hoffman2018cycada}
+\citation{long2018conditional}
+\citation{Ganin2015Unsupervised}
+\citation{Long2015Learning}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Network Architectures of our Encoder and Generator used for oracle recognition. }}{8}{}\protected@file@percent }
+\newlabel{archi_detail}{{II}{8}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Network Architectures of our Discriminators used for oracle recognition. }}{8}{}\protected@file@percent }
+\newlabel{archi_detail2}{{III}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-B}Implementation detail}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-C}Ablation study}{8}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Ablation study on Oracle-241 dataset. }}{9}{}\protected@file@percent }
+\newlabel{ablation}{{IV}{9}}
+\newlabel{ablation_transform_a}{{4(a)}{9}}
+\newlabel{sub@ablation_transform_a}{{(a)}{9}}
+\newlabel{ablation_transform_b}{{4(b)}{9}}
+\newlabel{sub@ablation_transform_b}{{(b)}{9}}
+\newlabel{ablation_transform_c}{{4(c)}{9}}
+\newlabel{sub@ablation_transform_c}{{(c)}{9}}
+\newlabel{ablation_transform_d}{{4(d)}{9}}
+\newlabel{sub@ablation_transform_d}{{(d)}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Ablation: the effect of $\mathcal  {L}_{advI}$, $\mathcal  {L}_{rec}$ and $\mathcal  {L}_{per}$ on transformation. (a) Source handprinted character. (b) Without $\mathcal  {L}_{rec}+\mathcal  {L}_{per}$, the transformed image is not satisfied. (c) Without $\mathcal  {L}_{per}$, the transformed image lacks the proper texture. (d) With all the constraints, the transformed image looks real from both structure and texture aspects.}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Source}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Model-C}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Model-D}}}{9}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Model-E}}}{9}{}\protected@file@percent }
+\newlabel{ablation_transform}{{4}{9}}
+\citation{Ganin2015Unsupervised}
+\citation{maaten2008visualizing}
+\newlabel{sensi_a}{{5(a)}{10}}
+\newlabel{sub@sensi_a}{{(a)}{10}}
+\newlabel{sensi_b}{{5(b)}{10}}
+\newlabel{sub@sensi_b}{{(b)}{10}}
+\newlabel{sensi_b}{{5(c)}{10}}
+\newlabel{sub@sensi_b}{{(c)}{10}}
+\newlabel{sensi_b}{{5(d)}{10}}
+\newlabel{sub@sensi_b}{{(d)}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The sensitivity of target accuracy to $\{\alpha _i\}_{i=1}^4$ when adapting handprinted oracle data to scanned data.}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Sensitivity to $\alpha _1$}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Sensitivity to $\alpha _2$}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(c)}{\ignorespaces {Sensitivity to $\alpha _3$}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(d)}{\ignorespaces {Sensitivity to $\alpha _4$}}}{10}{}\protected@file@percent }
+\newlabel{sensi}{{5}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces The empirical analysis results for the sensitivity of hyperparameter $\lambda _l$}}{10}{}\protected@file@percent }
+\newlabel{lambda_sensi}{{V}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-D}Visualization}{10}{}\protected@file@percent }
+\newlabel{Convergence_a}{{6(a)}{10}}
+\newlabel{sub@Convergence_a}{{(a)}{10}}
+\newlabel{Convergence_b}{{6(b)}{10}}
+\newlabel{sub@Convergence_b}{{(b)}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The testing accuracies of Source-only, DANN and our proposed method evaluated on source and target domain when adapting handprinted oracle characters to scanned data.}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Source domain}}}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {Target domain}}}{10}{}\protected@file@percent }
+\newlabel{Convergence}{{6}{10}}
+\citation{huang2019obc306}
+\citation{zhang2019oracle}
+\citation{long2018conditional}
+\citation{chen2019transferability}
+\citation{cui2020gradually}
+\citation{huang2019obc306}
+\citation{he2016deep}
+\citation{zhang2019oracle}
+\citation{sun2016deep}
+\citation{tzeng2014deep}
+\citation{Long2015Learning}
+\citation{zhang2021robust}
+\citation{Ganin2015Unsupervised}
+\citation{cui2020gradually}
+\citation{long2018conditional}
+\citation{chen2019transferability}
+\citation{he2016deep}
+\citation{bousmalis2016domain}
+\citation{Ganin2015Unsupervised}
+\citation{Tzeng2017Adversarial}
+\citation{jia2019domain}
+\citation{luo2017label}
+\citation{bousmalis2016domain}
+\citation{taigman2016unsupervised}
+\citation{saito2017asymmetric}
+\citation{liu2016coupled}
+\citation{xie2018learning}
+\citation{bousmalis2017unsupervised}
+\citation{liu2017unsupervised}
+\citation{hoffman2018cycada}
+\citation{zhang2019oracle}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The transformed target-like images on Oracle-241 dataset. In every two columns, the left and right images are the images from real handprinted domain and their corresponding transformed images in target domain.}}{11}{}\protected@file@percent }
+\newlabel{transfromed_scan}{{7}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The transformed source-like images on Oracle-241 dataset. In every two columns, the left and right images are the images from real scanned domain and their corresponding transformed images in source domain.}}{11}{}\protected@file@percent }
+\newlabel{transfromed_handprint}{{8}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The transformed target-like images on (a) U$\rightarrow $M, (b) M$\rightarrow $U and (c) S$\rightarrow $M tasks. In every two columns, the left and right images are the images from source domain and their corresponding transformed images in target domain.}}{11}{}\protected@file@percent }
+\newlabel{transform_digit}{{9}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-E}Comparison with state-of-the-arts}{11}{}\protected@file@percent }
+\newlabel{oracle_visual_a}{{10(a)}{11}}
+\newlabel{sub@oracle_visual_a}{{(a)}{11}}
+\newlabel{oracle_visual_b}{{10(b)}{11}}
+\newlabel{sub@oracle_visual_b}{{(b)}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Feature visualization on testing data of Oracle-241 dataset. Red points are handprinted samples and the blue ones represent scanned samples. (Best viewed in color)}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Before adaptation}}}{11}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {After adaptation}}}{11}{}\protected@file@percent }
+\newlabel{oracle_visual}{{10}{11}}
+\citation{zhang2021robust}
+\citation{cui2020gradually}
+\citation{long2018conditional}
+\citation{chen2019transferability}
+\citation{hoffman2018cycada}
+\citation{long2018conditional}
+\citation{bousmalis2016domain}
+\citation{hoffman2018cycada}
+\citation{zhu2017unpaired}
+\newlabel{digit_visual_a}{{11(a)}{12}}
+\newlabel{sub@digit_visual_a}{{(a)}{12}}
+\newlabel{digit_visual_b}{{11(b)}{12}}
+\newlabel{sub@digit_visual_b}{{(b)}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Feature visualization on U$\rightarrow $M task. Red points are USPS samples and the blue ones represent MNIST samples. (Best viewed in color)}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Before adaptation}}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {After adaptation}}}{12}{}\protected@file@percent }
+\newlabel{digit_visual}{{11}{12}}
+\newlabel{intra_visual_a}{{12(a)}{12}}
+\newlabel{sub@intra_visual_a}{{(a)}{12}}
+\newlabel{intra_visual_b}{{12(b)}{12}}
+\newlabel{sub@intra_visual_b}{{(b)}{12}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Feature visualization on target scanned data of Oracle-241 dataset. The color of a circle represents its class. (Best viewed in color)}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(a)}{\ignorespaces {Before adaptation}}}{12}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {subfigure}{\numberline{(b)}{\ignorespaces {After adaptation}}}{12}{}\protected@file@percent }
+\newlabel{intra_visual}{{12}{12}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Source and target accuracy (mean$\pm $std\%) on Oracle-241 dataset (the handprinted characters to scanned data setting). The best numbers are indicated in bold.}}{12}{}\protected@file@percent }
+\newlabel{oracle-241}{{VI}{12}}
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Target accuracy (mean$\pm $ std\%) on three transfer tasks of digit datasets. The best numbers are indicated in bold.}}{12}{}\protected@file@percent }
+\newlabel{MNIST-USPS-SVHN}{{VII}{12}}
+\citation{he2016deep}
+\bibstyle{IEEEtran}
+\bibdata{egbib}
+\bibcite{flad2008divination}{1}
+\bibcite{keightley1997graphs}{2}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Ten example samples which are misclassified by our STSN model. For each character, the left, middle and right images are the misclassified scanned sample, prediction and ground-truth, respectively. The predictions and ground-truths are showed visually by the corresponding handprinted images belonging to the same classes.}}{13}{}\protected@file@percent }
+\newlabel{error_img}{{13}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Six example images which are misclassified by ``Source-only" model but classified correctly by our method. The ground-truths are showed by the corresponding handprinted images belonging to the same classes.}}{13}{}\protected@file@percent }
+\newlabel{correct_img}{{14}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {IV-F}Error analysis}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Conclusion and future work}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Acknowledgments}{13}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{References}{13}{}\protected@file@percent }
+\bibcite{li2020hwobc}{3}
+\bibcite{huang2019obc306}{4}
+\bibcite{krizhevsky2012imagenet}{5}
+\bibcite{simonyan2014very}{6}
+\bibcite{szegedy2015going}{7}
+\bibcite{he2016deep}{8}
+\bibcite{guo2015building}{9}
+\bibcite{zhang2019oracle}{10}
+\bibcite{wang2018deep}{11}
+\bibcite{Ganin2015Unsupervised}{12}
+\bibcite{Long2015Learning}{13}
+\bibcite{Long2016Unsupervised}{14}
+\bibcite{goodfellow2014generative}{15}
+\bibcite{bousmalis2016domain}{16}
+\bibcite{anyang}{17}
+\bibcite{lecun1998gradient}{18}
+\bibcite{netzer2011reading}{19}
+\bibcite{denker1989neural}{20}
+\bibcite{zhou1995method}{21}
+\bibcite{li2000coding}{22}
+\bibcite{li2011recognition}{23}
+\bibcite{shaotong2016identification}{24}
+\bibcite{liu2017oracle}{25}
+\bibcite{lu2020recognition}{26}
+\bibcite{sabour2017dynamic}{27}
+\bibcite{huang2017densely}{28}
+\bibcite{zhang2021oracle}{29}
+\bibcite{sun2016deep}{30}
+\bibcite{zellinger2017central}{31}
+\bibcite{peng2019moment}{32}
+\bibcite{long2017deep}{33}
+\bibcite{Yan2017Mind}{34}
+\bibcite{chen2019graph}{35}
+\bibcite{Tzeng2017Adversarial}{36}
+\bibcite{pei2018multi}{37}
+\bibcite{chadha2019improved}{38}
+\bibcite{long2018conditional}{39}
+\bibcite{hoffman2018cycada}{40}
+\bibcite{hu2018duplex}{41}
+\bibcite{sankaranarayanan2018generate}{42}
+\bibcite{zhu2017unpaired}{43}
+\bibcite{zhang2018collaborative}{44}
+\bibcite{wu2019editing}{45}
+\bibcite{yang2020swaptext}{46}
+\bibcite{shimoda2021rendering}{47}
+\bibcite{mao2017least}{48}
+\bibcite{johnson2016perceptual}{49}
+\bibcite{gatys2016neural}{50}
+\bibcite{huang2017arbitrary}{51}
+\bibcite{shi2018genre}{52}
+\bibcite{kim2017adversarial}{53}
+\bibcite{cheng2020improving}{54}
+\bibcite{john2019disentangled}{55}
+\bibcite{shen2017style}{56}
+\bibcite{zhang2021robust}{57}
+\bibcite{kang2020unsupervised}{58}
+\bibcite{luo2021separating}{59}
+\bibcite{russakovsky2015imagenet}{60}
+\bibcite{radford2015unsupervised}{61}
+\bibcite{dumoulin2016guide}{62}
+\bibcite{ulyanov2016instance}{63}
+\bibcite{maaten2008visualizing}{64}
+\bibcite{chen2019transferability}{65}
+\bibcite{cui2020gradually}{66}
+\bibcite{tzeng2014deep}{67}
+\bibcite{jia2019domain}{68}
+\bibcite{luo2017label}{69}
+\bibcite{taigman2016unsupervised}{70}
+\bibcite{saito2017asymmetric}{71}
+\bibcite{liu2016coupled}{72}
+\bibcite{xie2018learning}{73}
+\bibcite{bousmalis2017unsupervised}{74}
+\bibcite{liu2017unsupervised}{75}
+\gdef \@abspage@last{15}
